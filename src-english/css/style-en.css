@@ -65,7 +65,7 @@ body::after {
 }
 
 .swiper {
-  width: 350px;
+  width: 300px;
   height: 500px;
   box-shadow: 0px 0px 20px 0px rgba(37, 99, 224, 0.828);
     border-radius: 20px;
@@ -84,13 +84,12 @@ body::after {
     padding: 35px;
 }
 
-.curiosity  {
-    font-size: 16px;
+.curiosity {
+    font-size: 18px;
     color: #d6ecff;
-    text-align: justify;
+    text-align: center;
     overflow: auto;
-    padding-right: 25px;
-    padding-left: 25px;
+
 }
 
 ::-webkit-scrollbar {
@@ -114,30 +113,20 @@ body::after {
    
 }
 
-.names h2 {
-    font-size: 1.5rem;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-weight: 600;
-    color: #91b2cb;
-    text-shadow: 0px 0px 10px rgba(37, 99, 224, 0.828);
-    font-family: Perandory;
-}
-
-#english_page buttom {
+#portuguese_page buttom {
     color: #abb9c7c9;
     text-shadow: 1px 1.5px 3px rgb(0, 0, 0);
     margin-top: 20px;
     cursor: pointer;
-  
 }
 
-#english_page buttom:hover {
+#portuguese_page buttom:hover {
     color: #d6ecff;
     cursor: pointer;
     text-shadow: 0px 0px 10px rgba(37, 99, 224, 0.828);
 }
 
-#english_page a {
+#portuguese_page a {
     text-decoration: none;
 }
+
