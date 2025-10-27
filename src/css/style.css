@@ -141,3 +141,44 @@ body::after {
 .page a {
     text-decoration: none;
 }
+
+
+@media screen and (max-width: 1170px) {
+    #main_menu {
+        padding: 30px 5%;
+    }
+
+    .swiper {
+        width: 300px;
+        height: 450px;
+    }
+
+    .swiper-slide {
+        padding: 25px;
+    }
+
+    .planets-information img {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #main_menu {
+        padding: 20px 3%;
+    }
+
+    .swiper {
+        width: 250px;
+        height: 400px;
+    }
+
+    .swiper-slide {
+        padding: 20px;
+    }
+
+    .planets-information img {
+        width: 100px;
+        height: 100px;
+    }
+}
