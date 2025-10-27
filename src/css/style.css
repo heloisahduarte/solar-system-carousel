@@ -124,7 +124,7 @@ body::after {
     font-family: Perandory;
 }
 
-#english_page buttom {
+.page buttom {
     color: #abb9c7c9;
     text-shadow: 1px 1.5px 3px rgb(0, 0, 0);
     margin-top: 20px;
@@ -132,12 +132,12 @@ body::after {
   
 }
 
-#english_page buttom:hover {
+.page buttom:hover {
     color: #d6ecff;
     cursor: pointer;
     text-shadow: 0px 0px 10px rgba(37, 99, 224, 0.828);
 }
 
-#english_page a {
+.page a {
     text-decoration: none;
 }

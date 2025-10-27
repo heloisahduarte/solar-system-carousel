@@ -7,162 +7,265 @@
     <title>Sistema solar</title>
     <link rel="shortcut icon" href="src/img/Microsoft-Fluentui-Emoji-Mono-Ringed-Planet.512.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="src-english/css/style-en.css">
+    <link rel="stylesheet" href="src/css/style.css">
 </head>
 
 <body>
     <main id="main_menu">
         <div id="planets">
-                <h1>Solar System</h1>
-                <h2>
-                    Get to know a little about the planets in our solar system
-                </h2>
-                <p>
-                    Hold and drag to change the card
-                </p>
+            <h1>Solar System</h1>
+            <h2>
+                Get to know a little about the planets in our solar system
+            </h2>
+            <p>
+                Hold and drag to change the card
+            </p>
         </div>
         <div class="swiper">
             <div class="swiper-wrapper">
-                    <div class="swiper-slide"> 1
+                <div class="swiper-slide" id="sun">
 
-                            <div class="planets-information">
-                                <img src="" alt="">
-                            </div>
-                            <div class="curiosity">
-                                <p>
-                                    O Sol é o coração do nosso Sistema Solar. Ele representa quase toda a massa do sistema — cerca de 99,8% — e é uma gigantesca esfera de gás quente composta principalmente por hidrogênio e hélio. Sua energia é gerada por fusão nuclear, um processo que transforma hidrogênio em hélio e libera uma quantidade imensa de luz e calor.
-                                    Sem o Sol, não haveria gravidade suficiente para manter os planetas em órbita, nem energia para sustentar a vida na Terra. A luz solar demora 8 minutos e 20 segundos para chegar até nós, e mesmo assim é o suficiente para iluminar e aquecer todo o planeta.
-                                </p>
-                            </div>
+                    <div class="planets-information">
+                        <img src="src/img/sun.png" alt="">
                     </div>
-                    <div class="swiper-slide"> 2
 
-                        <div class="planets-information">
-                            <img src="src/img/mercury.png" alt="">
+                    <div class="names">
+                        <h2>Sun</h2>
+                    </div>
+
+                    <div class="curiosity">
+                        <p>
+                            The Sun is the heart of our Solar System. It makes up about 99.8% of the system’s total mass
+                            and is a massive sphere of hot gas, mainly hydrogen and helium. Its energy comes from
+                            nuclear fusion, a process that turns hydrogen into helium and releases tremendous amounts of
+                            light and heat.
+                            Without the Sun, there would be no gravity to hold the planets in orbit, and no energy to
+                            sustain life on Earth. Sunlight takes about 8 minutes and 20 seconds to reach us — yet it
+                            powers everything on our planet.
+                        </p>
+
+                        
+
+                    </div>
+                </div>
+                <div class="swiper-slide" id="moon">
+
+                    <div class="planets-information">
+                        <img src="src/img/moon.png" alt="">
+                    </div>
+
+                    <div class="names">
+                        <h2>The Moon</h2>
+                    </div>
+
+                    <div class="curiosity">
+                        <p>
+                            The Moon is Earth’s only natural satellite and our closest cosmic neighbor, orbiting about 384,400 km (238,855 miles) away. It’s roughly one-fourth the size of Earth, and its gravity is strong enough to influence the tides of our oceans.
+Formed about 4.5 billion years ago, scientists believe the Moon was created after a massive collision between the young Earth and a Mars-sized body called Theia.
+Because the Moon rotates at the same rate it orbits Earth, we always see the same side — the “near side.” The other half, known as the far side, remained unseen until space probes photographed it in the 20th century.
+The Moon has no atmosphere, so temperatures swing drastically — from 127°C (260°F) in sunlight to -173°C (-280°F) at night.
+Its surface is covered in craters, plains, and ancient lava fields called maria. These dark regions were once seas of molten rock.
+The Moon has played a vital role in human culture, science, and exploration — from guiding calendars to inspiring myths. In 1969, it became the first celestial body visited by humans, when the Apollo 11 mission landed astronauts Neil Armstrong and Buzz Aldrin on its surface.
+Today, the Moon remains a key target for future missions — and could even become a stepping stone for human travel to Mars.
+                        </p>
+
+                        
+
+                    </div>
+                </div>
+                <div class="swiper-slide" id="mercury">
+
+                    <div class="planets-information">
+                        <img src="src/img/mercury.png" alt="">
+                    </div>
+
+                    <div class="names">
+                        <h2>Mercury</h2>
+                    </div>
+
+                    <div class="curiosity">
+                        <p>
+                            Mercury is the smallest planet in the Solar System and the one closest to the Sun. It moves
+                            so fast that it completes an orbit in just 88 Earth days.
+                            Despite its proximity to the Sun, Mercury experiences extreme temperature swings — up to
+                            430°C (800°F) during the day and -180°C (-290°F) at night — because it has almost no
+                            atmosphere to trap heat.
+                            Its surface is covered in craters and cliffs, shaped by asteroid impacts and the planet’s
+                            slow shrinking over billions of years.
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-slide" id="venus">
+
+                    <div class="planets-information">
+                        <img src="src/img/Venus.png" alt="">
+                    </div>
+
+                    <div class="names">
+                        <h2>Venus</h2>
+                    </div>
+
+                    <div class="curiosity">
+                        <p>
+                            Venus is the hottest planet in the Solar System, with surface temperatures around 465°C
+                            (870°F) — hot enough to melt lead. Its dense atmosphere, made mostly of carbon dioxide,
+                            traps heat through a runaway greenhouse effect.
+                            Uniquely, Venus rotates in the opposite direction of most planets, meaning the Sun rises in
+                            the west and sets in the east.
+                            A single day on Venus is longer than a year — it takes 243 Earth days to rotate once, but
+                            only 225 days to orbit the Sun.
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-slide" id="earth">
+
+                    <div class="planets-information">
+                        <img src="src/img/earth.png" alt="">
+                    </div>
+
+                    <div class="names">
+                        <h2>Earth</h2>
                         </div>
-                        <div class="curiosity">
-                                <p>
-                                    Mercúrio é o menor planeta do Sistema Solar e o mais próximo do Sol. Sua órbita é tão rápida que ele completa uma volta ao redor do Sol em apenas 88 dias terrestres.
-                                    Apesar da proximidade com o Sol, Mercúrio tem variações extremas de temperatura: durante o dia, pode atingir 430°C, e à noite despencar para -180°C. Isso acontece porque ele não possui atmosfera densa para reter o calor.
-                                    Sua superfície é coberta por crateras e penhascos gigantescos, formados por impactos e pela contração do planeta ao longo de bilhões de anos.
-                                </p>
-                            </div>
-                    </div>
-                    <div class="swiper-slide">3
 
-                         <div class="planets-information">
-                            <img src="src/img/Venus.png" alt="">
-                        </div>
-                        <div class="curiosity">
-                                <p>
-                                    Vênus é o planeta mais quente do Sistema Solar, com temperaturas médias de cerca de 465°C — quente o bastante para derreter chumbo. Sua atmosfera é densa e composta quase totalmente por dióxido de carbono, o que causa um efeito estufa extremo.
-                                    Curiosamente, Vênus gira no sentido contrário à maioria dos planetas, o que significa que o Sol nasce no oeste e se põe no leste.
-                                    Um dia em Vênus é mais longo que um ano: ele leva 243 dias terrestres para girar em torno de si mesmo, mas apenas 225 dias para completar uma volta ao redor do Sol.
-                                </p>
-                            </div>
+                    <div class="curiosity">
+                        <p>
+                            Earth is the only known planet with life. Its atmosphere, made of nitrogen, oxygen, and
+                            water vapor, and its liquid water make it the perfect home for living organisms.
+                            About 70% of its surface is covered by oceans, and the rest supports a stunning diversity of
+                            ecosystems.
+                            Earth is protected by a magnetic field that deflects harmful solar particles and an ozone
+                            layer that filters ultraviolet radiation.
+                            It’s a living planet — constantly changing through tectonic movement, erosion, volcanic
+                            activity, and evolution.
+                        </p>
                     </div>
-                    <div class="swiper-slide">4
+                </div>
+                <div class="swiper-slide" id="mars">
 
-                         <div class="planets-information">
-                            <img src="src/img/IMG_5343.png" alt="">
-                        </div>
-                        <div class="curiosity">
-                                <p>
-                                    A Terra é o único planeta conhecido com vida. Sua atmosfera, composta por nitrogênio, oxigênio e vapor d’água, e a presença de água líquida tornam o ambiente ideal para o surgimento e manutenção da vida.
-                                    Cerca de 70% da superfície é coberta por oceanos, e o restante abriga uma diversidade impressionante de ecossistemas.
-                                    A Terra também é protegida por um campo magnético que desvia partículas solares perigosas, além da camada de ozônio, que filtra parte da radiação ultravioleta.
-                                    É um planeta em constante mudança — através de placas tectônicas, vulcões, erosão e o próprio ciclo da vida.
-                                </p>
-                            </div>
+                    <div class="planets-information">
+                        <img src="src/img/Mars.png" alt="">
                     </div>
-                    <div class="swiper-slide">5
 
-                         <div class="planets-information">
-                            <img src="src/img/Mars.png" alt="">
-                        </div>
-                        <div class="curiosity">
-                                <p>
-                                    Conhecido como o “planeta vermelho”, Marte deve sua coloração à presença de óxidos de ferro em sua superfície. Ele é frio e seco, com temperaturas que podem cair para -120°C à noite.
-                                    Apesar disso, há fortes indícios de que já existiu água líquida em Marte — rios, lagos e talvez até oceanos.
-                                    Marte também abriga o Monte Olimpo, o maior vulcão do Sistema Solar, com cerca de 22 km de altura. Sua atmosfera é fina e composta principalmente de dióxido de carbono.
-                                    Hoje, várias sondas e robôs exploram sua superfície em busca de sinais de vida passada e para entender se um dia poderemos viver lá.
-                                </p>
-                            </div>
+                    <div class="names">
+                        <h2>Mars</h2>
                     </div>
-                    <div class="swiper-slide">6
 
-                         <div class="planets-information">
-                            <img src="src/img/jupiter.png" alt="">
-                        </div>
-                        <div class="curiosity">
-                                <p>
-                                    Júpiter é o gigante do Sistema Solar — seu diâmetro é 11 vezes maior que o da Terra e sua massa equivale a 2,5 vezes a soma de todos os outros planetas.
-                                    É composto principalmente por hidrogênio e hélio, e não possui uma superfície sólida definida. Em sua atmosfera turbulenta, acontecem tempestades colossais, como a Grande Mancha Vermelha, uma tempestade que existe há pelo menos 300 anos.
-                                    Júpiter tem mais de 90 luas conhecidas, incluindo Ganimedes, a maior de todas, maior até que o planeta Mercúrio. Sua força gravitacional ajuda a proteger os planetas internos, desviando asteroides e cometas.
-                                </p>
-                            </div>
+                    <div class="curiosity">
+                        <p>
+                            Known as the “Red Planet,” Mars gets its color from iron oxide covering its surface. It’s a
+                            cold, dry world where temperatures can drop to -120°C (-184°F) at night.
+                            There’s strong evidence that liquid water once flowed on Mars — in rivers, lakes, and
+                            possibly even oceans.
+                            Mars also has the tallest volcano in the Solar System, Olympus Mons, standing about 22 km
+                            (13.6 miles) high.
+                            Today, rovers and orbiters explore the planet, searching for signs of past life and studying
+                            its potential for future human missions.
+                        </p>
                     </div>
-                    <div class="swiper-slide"> 7
+                </div>
+                <div class="swiper-slide" id="jupiter">
 
-                            <div class="planets-information">
-                                <img src="src/img/saturn.png" alt="">
-                            </div>
-                            <div class="curiosity">
-                                <p>
-                                    Saturno é facilmente reconhecido por seus anéis magníficos, formados por bilhões de fragmentos de gelo e rocha. Apesar
-                                    de seu tamanho imponente, é o planeta menos denso do Sistema Solar — se fosse colocado em um oceano gigante, flutuaria!
-                                    Assim como Júpiter, Saturno é um gigante gasoso composto principalmente de hidrogênio e hélio.
-                                    Entre suas mais de 80 luas, destaca-se Titã, que possui lagos e mares de metano líquido e uma atmosfera densa —
-                                    características que intrigam cientistas por lembrar, em parte, a Terra primitiva.
-                                </p>
-                            </div>
+                    <div class="planets-information">
+                        <img src="src/img/jupiter.png" alt="">
                     </div>
-                    <div class="swiper-slide"> 8
 
-                            <div class="planets-information">
-                                <img src="src/img/IMG_5345.png" alt="">
-                            </div>
-                            <div class="curiosity">
-                                <p>Urano é um planeta muito diferente: seu eixo é inclinado em 98°, o que faz com que ele gire de lado. Essa rotação
-                                peculiar provoca estações que duram cerca de 21 anos cada!
-                                Sua coloração azul-esverdeada é resultado da presença de metano na atmosfera, que absorve a luz vermelha e reflete tons
-                                azulados.
-                                Urano também é o primeiro planeta descoberto com o uso de um telescópio, em 1781, por William Herschel.
-                                Apesar de ser um gigante gasoso, acredita-se que tenha um núcleo rochoso cercado por uma mistura de gelo, amônia e
-                                metano.
-                                </p>
-                            </div>
+                    <div class="names">
+                        <h2>Jupiter</h2>
                     </div>
-                    <div class="swiper-slide"> 9
 
-                            <div class="planets-information">
-                                <img src="src/img/netuno.png" alt="">
-                            </div>
-                            <div class="curiosity">
-                                <p>
-                                    Netuno é o planeta mais distante do Sol e o mais frio do Sistema Solar, com temperaturas que podem chegar a -220°C.
-                                    Mesmo assim, é também o mais ventoso — com rajadas que superam 2.000 km/h.
-                                    Ele é um gigante gasoso composto por hidrogênio, hélio e metano, que dá ao planeta sua cor azul intensa.
-                                    Netuno foi o primeiro planeta descoberto por cálculos matemáticos, antes mesmo de ser observado por um telescópio, em
-                                    1846.
-                                    Entre suas luas, Tritão se destaca por orbitar o planeta em sentido contrário à rotação de Netuno — um indício de que
-                                    pode ter sido capturada da Cintura de Kuiper.
-                                </p>
-                            </div>
+                    <div class="curiosity">
+                        <p>
+                            Jupiter is the giant of the Solar System, over 11 times wider than Earth and more massive
+                            than all other planets combined.
+                            Made mostly of hydrogen and helium, it has no solid surface — only swirling layers of clouds
+                            and storms.
+                            Its most famous feature, the Great Red Spot, is a colossal storm that has raged for at least
+                            300 years.
+                            Jupiter has over 90 moons, including Ganymede, the largest moon in the Solar System — even
+                            bigger than Mercury. Its strong gravity helps shield inner planets from asteroids and
+                            comets.
+                        </p>
                     </div>
+                </div>
+                <div class="swiper-slide" id="saturn">
+
+                    <div class="planets-information">
+                        <img src="src/img/saturn.png" alt="">
+                    </div>
+
+                    <div class="names">
+                        <h2>Saturn</h2>
+                    </div>
+
+                    <div class="curiosity">
+                        <p>
+                            Saturn is known for its spectacular ring system, made of billions of pieces of ice and rock.
+                            Despite its massive size, Saturn is the least dense planet — it would float in water if
+                            there were an ocean big enough.
+                            Like Jupiter, it’s mostly hydrogen and helium, with powerful winds and storms.
+                            Among its 80+ moons, Titan stands out for having lakes and seas of liquid methane and a
+                            thick atmosphere, making it one of the most Earth-like worlds in the Solar System.
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-slide" id="uranus">
+
+                    <div class="planets-information">
+                        <img src="src/img/uranus.png" alt="">
+                    </div>
+
+                    <div class="names">
+                        <h2>Uranus</h2>
+                    </div>
+
+                    <div class="curiosity">
+                        <p>Uranus is truly unique: its axis is tilted about 98°, causing it to rotate on its side. This
+                            means each of its seasons lasts over 20 years!
+                            Its blue-green color comes from methane gas in the atmosphere, which absorbs red light and
+                            reflects blue.
+                            Discovered in 1781 by William Herschel, Uranus was the first planet found using a telescope.
+                            Though it’s a gas giant, scientists believe it has a rocky core surrounded by ice, ammonia,
+                            and methane.
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-slide" id="neptune">
+
+                    <div class="planets-information">
+                        <img src="src/img/netuno.png" alt="">
+                    </div>
+
+                    <div class="names">
+                        <h2>Neptune</h2>
+                    </div>
+
+                    <div class="curiosity">
+                        <p>
+                            Neptune is the farthest planet from the Sun and also the coldest, with temperatures near
+                            -220°C (-360°F). Despite that, it’s home to the fastest winds in the Solar System, reaching
+                            2,000 km/h (1,200 mph).
+                            Its deep blue color comes from methane and possibly unknown atmospheric particles.
+                            Neptune was the first planet discovered through mathematical predictions, before being seen
+                            through a telescope in 1846.
+                            Its largest moon, Triton, orbits in the opposite direction of Neptune’s rotation —
+                            suggesting it was once a captured object from the Kuiper Belt.
+                        </p>
+                    </div>
+                </div>
             </div>
             <div class="swiper-pagination"></div>
         </div>
-        <div id="portuguese_page">
-                <a href="index.html">
-                    <buttom >
-                        Clique aqui para ver a versão em Português
-                    </buttom>
-                </a>
-            </div>
+        <div class="page">
+            <a href="index.html">
+                <buttom>
+                    Clique aqui para ver a versão em Português
+                </buttom>
+            </a>
+        </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
-    <script src="src-english/srcipt/script-en.js"></script>
+    <script src="src/script/script.js"></script>
 
 </body>
+
 </html>
