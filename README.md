@@ -2,6 +2,8 @@
 
 Um carrossel interativo que apresenta informações sobre os corpos celestes do nosso Sistema Solar, disponível em português e inglês.
 
+🪐 [Ver projeto online](https://heloisahduarte.github.io/solar-system-carousel/)
+
 ## 🚀 Tecnologias Utilizadas
 
 ### Front-end
