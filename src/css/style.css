@@ -2,6 +2,7 @@ body {
     background-image: url('../img/R.jpeg');
     background-size: cover;
     position: relative;
+    background-color: ;
 }
 
 body::after {
@@ -143,10 +144,6 @@ body::after {
 
 
 @media screen and (max-width: 1170px) {
-    body {
-   background-color: #637381;
-}
-
     #main_menu {
         padding: 30px 5%;
     }
@@ -167,12 +164,6 @@ body::after {
 }
 
 @media screen and (max-width: 600px) {
-   body {
-    background-image: url('../img/pexels-photo-110854.jpeg');
-    background-size: cover;
-    position: relative;
-}
-
     #main_menu {
         padding: 20px 3%;
     }
