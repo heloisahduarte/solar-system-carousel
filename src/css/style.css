@@ -2,7 +2,6 @@ body {
     background-image: url('../img/R.jpeg');
     background-size: cover;
     position: relative;
-    background-color: ;
 }
 
 body::after {
@@ -164,6 +163,22 @@ body::after {
 }
 
 @media screen and (max-width: 600px) {
+    body {
+    background-image: url('../img/R.jpeg');
+    background-size: cover;
+    position: relative;
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: #00142382; /* cor + transparência */
+  pointer-events: none;
+  z-index: -1;
+}
+
+
     #main_menu {
         padding: 20px 3%;
     }
